@@ -12,7 +12,7 @@ lvim.plugins = {
     },
   "mrjones2014/nvim-ts-rainbow",
   "roobert/tailwindcss-colorizer-cmp.nvim",
-  -- "nvim-treesitter/playground",
+  "nvim-treesitter/playground",
   "nvim-treesitter/nvim-treesitter-textobjects",
   "mfussenegger/nvim-jdtls",
   "NvChad/nvim-colorizer.lua",
@@ -33,11 +33,11 @@ lvim.plugins = {
     "0x100101/lab.nvim",
     build = "cd js && npm ci",
   },
-  -- {
-  --   "tzachar/cmp-tabnine",
-  --   event = "BufRead",
-  --   build = "./install.sh",
-  -- },
+  {
+    "tzachar/cmp-tabnine",
+    event = "BufRead",
+    build = "./install.sh",
+  },
 
   "mfussenegger/nvim-dap-python",
   "nvim-neotest/neotest",
