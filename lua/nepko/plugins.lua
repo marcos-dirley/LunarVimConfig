@@ -1,5 +1,6 @@
 -- Additional Plugins
 lvim.plugins = {
+    "https://gitlab.com/HiPhish/rainbow-delimiters.nvim",
     {
       "windwp/nvim-ts-autotag",
       config = function()
