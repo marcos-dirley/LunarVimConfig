@@ -5,8 +5,8 @@
 
 reload("nepko.options")
 reload("nepko.cppconfig")
--- reload("nepko.javaconfig")
--- reload("nepko.pyconfig")
+reload("nepko.javaconfig")
+reload("nepko.pyconfig")
 reload("nepko.keymaps")
 reload("nepko.vim-surround")
 reload("nepko.mdPreview")
@@ -29,3 +29,4 @@ reload("nepko.indent-blankline")
 reload("nepko.jsconfig")
 reload("nepko.dap")
 reload("nepko.rainbow-delimiters")
+reload "nepko.clangd"

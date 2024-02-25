@@ -1,5 +1,15 @@
 -- Additional Plugins
 lvim.plugins = {
+    'sakhnik/nvim-gdb',
+    "p00f/clangd_extensions.nvim",
+    "neovim/nvim-lspconfig",
+    'williamboman/nvim-lsp-installer',
+    {
+      'ms-jpq/coq_nvim',
+      branch = 'coq',
+    },
+    "cdelledonne/vim-cmake",
+    "christoomey/vim-tmux-navigator",
     "https://gitlab.com/HiPhish/rainbow-delimiters.nvim",
     {
       "windwp/nvim-ts-autotag",
