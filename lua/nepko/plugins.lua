@@ -1,5 +1,7 @@
 -- Additional Plugins
 lvim.plugins = {
+    "mattn/webapi-vim",
+    "mattn/emmet-vim",
     'sakhnik/nvim-gdb',
     "p00f/clangd_extensions.nvim",
     "neovim/nvim-lspconfig",
